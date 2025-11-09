@@ -24,7 +24,7 @@ class SessionView(ui.View):
         self.current_reactions = 0
         self.reacted_users = set()
 
-        self.react_button = ui.Button(label="React (0/0)", style=ButtonStyle.primary)
+        self.react_button = ui.Button(label=f"React (0/{self.max_reactions})", style=ButtonStyle.primary)
         self.react_button.callback = self.react_callback
         self.add_item(self.react_button)
 
