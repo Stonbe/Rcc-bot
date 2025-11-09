@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 
 intents = discord.Intents.default()
 intents.message_content = True
-intents.reactions = Tru
+intents.reactions = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
