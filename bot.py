@@ -10,11 +10,11 @@ intents.reactions = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-GUILD_ID = 1379203265874362388
+GUILD_ID = 1434590759570378774
 GUILD = discord.Object(id=GUILD_ID)
 
-IMAGE_URL = "https://ibb.co/C5qNStGf"
-ROLE_ID = 1437103696168222750
+IMAGE_URL = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73256248-616c-4779-aa68-106c298d0710/dhkcje3-3cd29923-0668-4bec-9e12-a769ef2be017.jpg/v1/fill/w_1151,h_694,q_70,strp/cars_tvg_boxart_roblox_remake_by_redkirbdaredpuffball_dhkcje3-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg0IiwicGF0aCI6Ii9mLzczMjU2MjQ4LTYxNmMtNDc3OS1hYTY4LTEwNmMyOThkMDcxMC9kaGtjamUzLTNjZDI5OTIzLTA2NjgtNGJlYy05ZTEyLWE3NjllZjJiZTAxNy5qcGciLCJ3aWR0aCI6Ijw9MTI5OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hDvTXzd7zXPfY1NMj3QAIHT-LML9VDX9CbX98xCETTU"
+ROLE_ID = 1434592997869228052
 
 class SessionView(ui.View):
     def __init__(self, max_reactions: int, link: str):
