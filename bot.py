@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 GUILD_ID = 1434590759570378774  # replace with your server ID
 GUILD = discord.Object(id=GUILD_ID)
 
-IMAGE_URL = "https://i.ytimg.com/vi/vIDAXZ2HT38/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqSI_HuzVFSS0EpodH2a_U0s7Tqwwhol"
+IMAGE_URL = "https://i.ibb.co/PZR3VYHd/sick-pic.png"
 ROLE_ID = 1434592997869228052  # replace with the ID of the role allowed to run the command
 
 class SessionView(ui.View):
